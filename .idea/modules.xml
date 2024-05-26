@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/django-aws-tutorial - (Start-over4).iml" filepath="$PROJECT_DIR$/.idea/django-aws-tutorial - (Start-over4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BJPoker-Backend.iml" filepath="$PROJECT_DIR$/.idea/BJPoker-Backend.iml" />
     </modules>
   </component>
 </project>
