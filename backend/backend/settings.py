@@ -118,6 +118,9 @@ DATABASES = {
         'PASSWORD': 'AdminTest',
         'HOST': 'awseb-e-tfv4349r9a-stack-awsebrdsdatabase-xpxylqxnncl1.cry8m8qi837h.us-west-2.rds.amazonaws.com',
         'PORT': '3306',
+        'OPTIONS': {
+            'init_command': "SET SESSION sql_mode = 'STRICT_TRANS_TABLES';"
+        }
     }
 }
 
