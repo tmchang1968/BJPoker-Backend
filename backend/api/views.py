@@ -79,11 +79,12 @@ class UserInfoListCreate(generics.ListCreateAPIView):
     #         print(serializer.errors)
 
     # (id: 4)
-    # def perform_create(self, serializer):
-    #     if serializer.is_valid():
-    #         serializer.save(author=self.request.user)
-    #     else:
-    #         print(serializer.errors)
+    def perform_create(self, serializer):
+        if serializer.is_valid():
+            serializer.save()
+        else:
+            print(serializer.errors)
+
 
 
 class UserInfoDelete(generics.DestroyAPIView):
