@@ -25,4 +25,4 @@ class NoteSerializer(serializers.ModelSerializer):
 class UserInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
-        fields = ["user_no", "user_name", "user_email", "created_at"]
+        fields = ["user_no", "user_name", "user_email", "user_birthyear" , "user_birthmonth" , "user_birthday" , "user_azurerole" , "user_blackrole" , "user_professionarea" , "user_workforunit" , "user_title" , "user_sociallinkedin" , "user_socialtwitter" , "user_socialfacebook" , "user_note", "user_info_id", "created_at"]
