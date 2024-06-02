@@ -1,1 +1,4 @@
-# django-aws-tutorial - (Start-over4)
+BJPoker-Backend
+
+# **\*\*Notice\*\***
+Please CHOOSE **"wrap-up" branch**.
