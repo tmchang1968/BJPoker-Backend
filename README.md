@@ -1,4 +1,4 @@
 BJPoker-Backend
 
-**Notice**
-Please CHOOSE "wrap-up" branch.
+# \*\*Notice\*\*
+Please \*\***CHOOSE**\*\* "wrap-up" branch.
